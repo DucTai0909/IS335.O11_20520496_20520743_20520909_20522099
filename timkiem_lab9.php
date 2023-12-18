@@ -33,20 +33,7 @@ if (isset($_GET['timkiem'])) {
         ?>
         <div class="sanpham">
         
-        <?php
-            // echo '<script>
-            //     var query = (new URLSearchParams(window.location.search)).get("timkiem");
-            //     var tong = ' . $tong . ';
-            //     document.write("<h2>Từ Khóa <font color=\'yellow\'><b>" + query + "</b></font>: Có " + tong + " kết quả</h2>");
-            // </script>';
-
-            // Phòng thủ
-            // echo '<script>
-            //     var query = (new URLSearchParams(window.location.search)).get("timkiem");
-            //     var tong = ' . $tong . ';
-            //     document.write("<h2>Từ Khóa <font color=\'yellow\'><b>" + encodeURIComponent(query) + "</b></font>: Có " + tong + " kết quả</h2>");
-            // </script>';
-        ?>
+        
         <script>
                 var tong = <?php echo $tong; ?>;
                 
